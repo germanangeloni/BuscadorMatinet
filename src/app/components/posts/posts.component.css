@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding:0;
+    }
+     
+    body {
+    background:#FFFFFA;
+    }
+     
+    header {
+    width:100%;
+    }
+     
+    header nav {
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+    background:#6c7274;
+    }
+     
+    .menu_bar {
+    display:none;
+    }
+     
+    header nav ul {
+    overflow:hidden;
+    list-style:none;
+    }
+     
+    header nav ul li {
+    float:left;
+    }
+     
+    header nav ul li a {
+    color:rgb(226, 210, 210);
+    padding:20px;
+    display:block;
+    text-decoration:none;
+    text-align: center;
+    }
+     
+    header nav ul li span {
+    margin-right:10px;
+    }
+     
+    header nav ul li a:hover {
+    background:rgb(175, 181, 182);
+    }
+     
+    section {
+    padding:20px;
+    }
+     
+    @media screen and (max-width:800px ) {
+    header nav {
+    width:80%;
+    height:100%;
+    left:-100%;
+    margin:0;
+    position: fixed;
+    }
+     
+    header nav ul li {
+    display:block;
+    float:none;
+    border-bottom:1px solid rgba(255,255,255, .3);
+    }
+     
+    .menu_bar {
+    display:block;
+    width:100%;
+    background:#ccc;
+    }
+     
+    .menu_bar .bt-menu {
+    display:block;
+    padding:20px;
+    background:#8f9394;
+    color:#fff;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:25px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    }
+    t
+    .menu_bar span {
+    float:right;
+    font-size:40px;
+    }
+    }
+
+    .box-shadow-menu {
+        position: relative;
+        padding-left: 1.25em;
+      }
+      .box-shadow-menu:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.25em;
+        width: 1em;
+        height: 0.15em;
+        background: black;
+        box-shadow: 
+          0 0.25em 0 0 black,
+          0 0.5em 0 0 black;
+      }
+
+
+      .efectolupa { cursor: pointer; }
+
+.efectolupa img:hover {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+
+.efectolupa:after {
+   content: '\f002';
+    position: left;
+    color: #ccc;
+    width: 30px;
+    height: 30px;
+    bottom: 59px;
+    left: 458px; 
+    font-family: FontAwesome;
+    font-style: normal;
+    opacity: 0.8;
+    font-size: 18px;
+}
+ 
